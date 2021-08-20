@@ -1,0 +1,15 @@
+.input {
+    text-align: left;
+    color: #59FF00;
+}
+.hideDecorators {
+    background: transparent;
+    border-color: transparent;
+    color: #59FF00;
+}
+.noAppearance {
+    border-color: transparent;
+}
+.autoCompleteOuterContainer {
+    border: none;
+}
