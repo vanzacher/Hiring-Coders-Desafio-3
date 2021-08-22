@@ -1,3 +1,14 @@
-.flexRowContent{
+.flexRowContent {
     background-color: #212121;
+}
+.flexRowContent--footer {
+    justify-content: center;
+    background-color: #424242;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.flexCol--footerIcons {
+    width: 200px;
+    margin: 10px;
 }

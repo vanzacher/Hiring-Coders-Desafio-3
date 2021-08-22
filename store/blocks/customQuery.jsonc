@@ -1,0 +1,75 @@
+{   // Query usada para exibir os produtos na home //
+    "search-result-layout.customQuery#home": {
+        "blocks": [
+            "search-result-layout.desktop#home" 
+           // "search-result-layout.mobile"
+          ],
+        "props": {
+          "querySchema": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip",
+            "maxItemsPerPage": 8,
+            "queryField": "kit-upmedal",
+            "mapField": "c"
+          }
+        }
+      },
+      "search-result-layout.desktop#home": {
+        "children": [
+          "flex-layout.row#result"
+        ],
+        "props": {
+          "preventRouteChange": true
+        }
+      },
+      "flex-layout.row#result": {
+          "children": [
+              "search-content#home"
+          ]
+      },
+      "search-content#home": {
+        "blocks": [
+            "gallery#home",
+            "not-found"
+        ]
+      },
+      // Tratamento do card de produtos da Home //
+      "gallery#home":{
+          "props": {
+              "layouts": [{
+                  "name": "grid",
+                  "component": "GridSummary",
+                  "itemsPerRow": {
+                      "(min-width:1300px)": 2,
+                      "desktop": 2,
+                      "tablet": 2,
+                      "phone": 1
+                    }
+                },
+                {
+                  "name": "list",
+                  "component": "ListSummary",
+                  "itemsPerRow": 1
+                }
+                ],
+            
+             "ListSumary": "product-summary.shelf#home",
+             "GridSummary": "product-summary.shelf#home"
+            }
+      },
+      "product-summary.shelf#home": {
+        "children": [
+          "product-summary-name",
+          "product-summary-image",
+          "product-summary-price",
+          "add-to-cart-button#home"
+        ]
+      },
+      "add-to-cart-button#home": {
+        "props": {
+            "onClickBehavior": "go-to-product-page",
+            "text": "VER DETALHES"
+          }
+      }
+    
+}

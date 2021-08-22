@@ -2,12 +2,12 @@
   "header": {
     "blocks": [
       "header-layout.desktop",
-       "header-layout.mobile"
-      ]
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
     "blocks": [
-      "header-layout.desktop", 
+      "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
@@ -35,7 +35,6 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      //"flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
       "login",
@@ -46,19 +45,15 @@
   "search-bar": {
     "props": {
       "placeholder": "Buscar"
-      
     }
   },
- //"flex-layout.col#spacer": {
- //  "props": {
- //    "width": "grow"
- //  }
- //},
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": [
+      "logo"
+    ]
   },
   "logo": {
     "props": {
@@ -83,7 +78,6 @@
     "children": [
       "drawer",
       "logo",
-      //"flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],

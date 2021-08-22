@@ -1,4 +1,4 @@
-/* Estilização botão de pesquisa */
+/* Botão de pesquisa */
 .searchBarContainer {
     width: 770px;
 }
@@ -14,16 +14,10 @@
     background: transparent;
     color: #59FF00;
 }
-.searchIcon {
+.searchIcon, .closeIcon, .searchIcon--search, .installmentsPrice {
     color: #59FF00;
 }
-.searchIcon--search {
-    color: #59FF00;
-}
-.closeIcon {
-    color: #59FF00;
-}
-/* Estilização da imagem do Home com Slider Layout */
+/* Imagem do Home com Slider Layout */
 .imageElement {
     border-radius: 20px;
     margin: 0;
@@ -31,8 +25,14 @@
     height: 80%;
 
 }
+/* Icons do footer */
+.imageElement--imageFooter {
+    max-width:80px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
 
 .flexColChild {
     background-color: #212121;
-
 }

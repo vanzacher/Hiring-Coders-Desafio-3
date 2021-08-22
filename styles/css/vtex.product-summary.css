@@ -1,0 +1,26 @@
+.element {
+    background-color: #424242;
+    align-items: center;
+}
+.element :global(.vtex-button) {
+    color: #3C3C3C;
+    background-color: #59ff00;
+    width: 60%;
+    border-radius: 10px;
+}
+.element :global(.vtex-button):hover {
+    color: #3C3C3C;
+    background-color: #3EB200;
+    width: 60%;
+    border-radius: 10px;
+}
+.brandName {
+    color: #ffffff;
+    margin: 1px;
+}
+.nameContainer {
+    text-align: center;
+}
+.sellingPrice {
+    color: #59FF00;
+}

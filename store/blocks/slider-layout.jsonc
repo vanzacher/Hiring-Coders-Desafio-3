@@ -1,4 +1,4 @@
-// Carrossel de Blocos //
+// Carrossel de Blocos da home //
 {
   "slider-layout#home": {
     "children": [
@@ -9,7 +9,6 @@
       "autoplay": {
         "timeout": 7000,
         "stopOnHover": true
-
       },
       "itemsPerPage": {
         "desktop": 1,
@@ -18,13 +17,11 @@
       }
     }
   },
-
   "image#brand1": {
     "props": {
       "src": "assets/banner-guerreiros.png"
     }
   },
-
   "image#brand2": {
     "props": {
       "src": "assets/banner-wood.png"

@@ -1,14 +1,14 @@
 {
-  "store.search": {
-    "blocks": [
-      "search-result-layout"
-      
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  }
+  //"store.search": {
+  //  "blocks": [
+  //    "search-result-layout",
+  //    "search-result-layout.customQuery#home"
+  //  ],
+  //  "props": {
+  //    "context": {
+  //      "skusFilter": "FIRST_AVAILABLE",
+  //      "simulationBehavior": "skip"
+  //    }
+  //  }
+  //}
 }
