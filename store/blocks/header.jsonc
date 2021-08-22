@@ -77,7 +77,7 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
+      "logo#mobile",
       "login",
       "minicart.v2"
     ],
@@ -88,7 +88,20 @@
       "fullWidth": true
     }
   },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/upmedal-logo.png",
+      "width": "100px"
+    }
+  },
   "drawer": {
-    "children": []
+    "props": {
+      "maxWidth": "5"
+    },
+    "children": [
+     "tab-layout"
+    ]
   }
 }

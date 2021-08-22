@@ -1,3 +1,11 @@
 .caretIcon {
     color: #59FF00;
 }
+.slideChildrenContainer {
+    background-color: #424242;
+    margin-top: 5px;
+}
+.slideChildrenContainer--Slider {
+    background-color: #303030;
+    margin-top: 5px;
+}

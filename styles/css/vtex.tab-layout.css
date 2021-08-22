@@ -1,14 +1,23 @@
-/* Estilizaçao botões do menu */
+/* Estilização dos botões do menu */
 .listContainer {
-    background-color: #212121;
+    background: #212121;
+    position: fixed;
+    z-index: 99;
 }
-.lisItem :global(.vtex-button) :hover {
-    border: transparent;
-    background-color: #212121;
+.listItem :global(.vtex-button) {
+  background: #212121;
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+  font-size: 14px;
 }
 .listItemActive :global(.vtex-button) {
-    background-color: #212121;
-    border: transparent;
-    border-bottom: 2px solid #59FF00;
-    color: #59FF00; 
+  color: #47ff3a;
+  border-bottom: 2px solid #47ff3a;
+}
+.container--product {
+  background: #424242;
+}
+.container--product :global(.vtex-button) {
+  background: #424242;
 }

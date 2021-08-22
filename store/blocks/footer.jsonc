@@ -17,10 +17,10 @@
     },
     "vtex.menu@2.x:menu#websites": {
         "children": [
-            "slider-layout#menu"
+            "slider-layout#footer"
         ]
     },
-    "slider-layout#menu": {
+    "slider-layout#footer": {
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
@@ -30,7 +30,6 @@
             "infinite": true,
             "showPaginationDots": "never",
             "showNavigationArrows": "mobileOnly",
-            "blockClass": "tab-list",
             "arrowSize": 16,
             "fullWidth": true
         },
@@ -46,7 +45,7 @@
             "type": "custom",
             "iconProps": {
                 "id": "hpa-profile",
-                "size": 16,
+                "size": 24,
                 "viewBox": "0 0 16 16",
                 "activeClassName": "white",
                 "mutedClassName": "c-action-primary"
@@ -57,7 +56,7 @@
                 "href": "/login",
                 "noFollow": false,
                 "tagTitle": "Login",
-                "text": "Entrar"
+                "text": "ENTRAR"
             }
         }
     },
@@ -66,7 +65,7 @@
             "type": "custom",
             "iconProps": {
                 "id": "mpa-bag",
-                "size": 16,
+                "size": 24,
                 "viewBox": "0 0 16 16",
                 "activeClassName": "white",
                 "mutedClassName": "c-action-primary"
@@ -77,7 +76,7 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Desafios",
-                "text": "Desafios"
+                "text": "DESAFIOS"
             }
         }
     },
@@ -86,7 +85,7 @@
             "type": "custom",
             "iconProps": {
                 "id": "hpa-cart",
-                "size": 16,
+                "size": 24,
                 "viewBox": "0 0 16 16",
                 "activeClassName": "white",
                 "mutedClassName": "c-action-primary"
@@ -94,10 +93,10 @@
             "highlight": true,
             "itemProps": {
                 "type": "internal",
-                "href": "/store",
+                "href": "/UpMedal",
                 "noFollow": false,
                 "tagTitle": "Loja",
-                "text": "Loja"
+                "text": "LOJA"
             }
         }
     },
@@ -106,7 +105,7 @@
             "type": "custom",
             "iconProps": {
                 "id": "hpa-telemarketing",
-                "size": 16,
+                "size": 24,
                 "viewBox": "0 0 16 16",
                 "activeClassName": "white",
                 "mutedClassName": "c-action-primary"
@@ -117,7 +116,7 @@
                 "href": "https://api.whatsapp.com/send?phone=5551998568088&text=Ol%C3%A1%2C%20bem%20vindo!",
                 "noFollow": false,
                 "tagTitle": "Suporte",
-                "text": "Suporte"
+                "text": "SUPORTE"
             }
         }
     }

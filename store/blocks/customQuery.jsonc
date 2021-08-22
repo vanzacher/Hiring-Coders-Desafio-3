@@ -9,7 +9,7 @@
             "skusFilter": "FIRST_AVAILABLE",
             "simulationBehavior": "skip",
             "maxItemsPerPage": 8,
-            "queryField": "kit-upmedal",
+            "queryField": "UpMedal",
             "mapField": "c"
           }
         }

@@ -9,7 +9,8 @@
       "my-account"
     ],
     "parent": {
-      "challenge": "challenge.profile"
+      "challenge": 
+      "challenge.profile"
     }
   },
   "store.login": {

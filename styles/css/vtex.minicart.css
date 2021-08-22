@@ -1,12 +1,18 @@
-/*.openIconContainer {
-    width: 200px;
-    margin: 10px;
+.minicartTitle {
+    color: #59ff00;
 }
-.cartIcon {
-    width: 200px;
-    margin: 10px;
+.minicartEmptyStateContainer {
+    margin-top: 10px;
 }
-.minicartWrapperContainer {
-    width: 200px;
-    margin: 10px;
+.minicartCheckoutButton :global(.vtex-button) {
+    color: #3C3C3C;
+    background-color: #59ff00;
+    width: 60%;
+    border-radius: 10px;
+}
+.minicartCheckoutButton :global(.vtex-button):hover {
+    color: #3C3C3C;
+    background-color: #3EB200;
+    width: 60%;
+    border-radius: 10px;
 }
