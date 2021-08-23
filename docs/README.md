@@ -10,19 +10,19 @@ Link do projeto Web: https://vandesafio3--hiringcoders2021.myvtex.com/
 
 Home UpMedal:
 
-![Web 1](https://www.flickr.com/photos/193758296@N03/51396785279/in/dateposted-public/)
+![Web 1](https://i.ibb.co/V9nzVLg/home-upmedal.jpg)
 
 Home Projeto:
 
-![Web 2](https://www.flickr.com/photos/193758296@N03/51396050491/in/dateposted-public/)
+![Web 2](https://i.ibb.co/R0g5v1D/home-van1.jpg)
 
 Rodapé:
 
-![Web 3](https://www.flickr.com/photos/193758296@N03/51396050501/in/dateposted-public/)
+![Web 3](https://i.ibb.co/qnsTwnF/rodape-van.jpg)
 
 Pedidos:
 
-![Web 4][url=https://ibb.co/bLBgXqc][img]https://i.ibb.co/ctFcQM4/cart-van.jpg[/img][/url]
+![Web 4](https://i.ibb.co/ctFcQM4/cart-van.jpg)
 
 # Todo desenvolvimento foi efetuado na plataforma VTEX IO
 
