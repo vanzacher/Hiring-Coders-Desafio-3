@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-O desafio #3 consiste em se aproximar o máximo da pagina (https://www.upmedal.com "UpMedal") construída durante **O Hiring Coders #2**, evento organizado pela [Gama Academy](https://www.gama.academy/ "Site da Gama Academy") em parceria com a [VTEX](https://vtex.com/br-pt/ "Site da VTEX")
+O desafio #3 consiste em se aproximar o máximo da pagina [UpMedal](https://www.upmedal.com/ "Site da UpMedal") construída durante **O Hiring Coders #2**, evento organizado pela [Gama Academy](https://www.gama.academy/ "Site da Gama Academy") em parceria com a [VTEX](https://vtex.com/br-pt/ "Site da VTEX")
 
 Link do projeto Web: https://vandesafio3--hiringcoders2021.myvtex.com/
 
@@ -22,7 +22,7 @@ Rodapé:
 
 Pedidos:
 
-![Web 4](https://www.flickr.com/photos/193758296@N03/51396785349/in/dateposted-public/)
+![Web 4][url=https://ibb.co/bLBgXqc][img]https://i.ibb.co/ctFcQM4/cart-van.jpg[/img][/url]
 
 # Todo desenvolvimento foi efetuado na plataforma VTEX IO
 
